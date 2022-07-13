@@ -66,4 +66,4 @@ const Google = props => (
 <a href="#" id="googleIcon"></a>
 );
 
-export default App
+export default App;
