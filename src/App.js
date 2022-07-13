@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import FormHeader from "./components/FormHeader";
 const App = props => (
   <LoginForm />
 );
@@ -17,9 +18,6 @@ render(){
 }
 }
 
-const FormHeader = props => (
-  <h2 id="headerTitle">{props.title}</h2>
-);
 
 
 const Form = props => (
