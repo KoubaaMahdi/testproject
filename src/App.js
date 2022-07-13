@@ -5,8 +5,4 @@ import LoginForm from "./components/LoginForm";
 const App = props => (
   <LoginForm />
 );
-
-
-
-
 export default App;
