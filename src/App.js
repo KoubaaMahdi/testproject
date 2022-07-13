@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import FormHeader from "./components/FormHeader";
+import OtherMethods from "./components/OtherMethods";
+import './styles.css';
+
 const App = props => (
   <LoginForm />
 );
@@ -41,27 +44,12 @@ const FormInput = props => (
 </div>  
 );
 
-const OtherMethods = props => (
-<div id="alternativeLogin">
-  <label>Or sign in with:</label>
-  <div id="iconGroup">
-    <Facebook />
-    <Twitter />
-    <Google />
-  </div>
-</div>
-);
 
-const Facebook = props => (
-<a href="#" id="facebookIcon"></a>
-);
 
-const Twitter = props => (
-<a href="#" id="twitterIcon"></a>
-);
 
-const Google = props => (
-<a href="#" id="googleIcon"></a>
-);
+
+
+
+
 
 export default App;
