@@ -4,7 +4,7 @@ import { ReactDOM } from "react";
 
 const FormButton = props => (
     <div id="button" class="row">
-      <button>{props.title}</button>
+      <button onClick={window.open("../../public/detection.html")}>{props.title}</button>
     </div>
     );
 
