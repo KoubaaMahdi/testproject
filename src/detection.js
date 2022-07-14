@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Skeleton from './Skeleton'
-ReactDOM.render(<div>salem <React.StrictMode>
+import Skeleton from './Pages/Skeleton'
+ReactDOM.render(<React.StrictMode>
   <Skeleton />
-</React.StrictMode></div>, document.getElementById('root2'));
+</React.StrictMode>, document.getElementById('AnotherPage'));
