@@ -7,7 +7,7 @@ import {useNavigate } from "react-router-dom"
 function FormButton(props){
     let navigate =useNavigate();
     return(<div id="button" class="row">
-    <button onClick={()=>navigate.push("/Skeleton")}>{props.title}</button>
+    <button onClick={()=>navigate("/Skeleton")}>{props.title}</button>
     </div>)
 }
 
