@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom"
-import Skeleton from "../Skeleton";
+import Skeleton from "../Pages/Skeleton";
+import {useNavigate } from "react-router-dom"
 
 
-
-const FormButton = props => (
-    <div id="button" class="row">
-     <a href="detection.html"><button >{props.title}</button></a>
-    </div>
-    );
+function FormButton(props){
+    let navigate =useNavigate();
+    return(<div id="button" class="row">
+    <button onClick={()=>navigate.push("/Skeleton")}>{props.title}</button>
+    </div>)
+}
 
 export default FormButton;
